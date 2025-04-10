@@ -1,7 +1,7 @@
 #!/bin/bash
 
 current_time=$(date +%s)
-target_time=$(date -d "07:40" +%s)
+target_time=$(date -d "09:49" +%s)
 
 if [ $current_time -ge $target_time ]; then
     target_time=$(date -d "tomorrow 07:00" +%s)
