@@ -15,7 +15,6 @@
 
 # Función para monitorear conexiones de red
 monitor_network_connections() {
-    # Capturar Ctrl+C para volver al menú principal
     trap 'return 0' INT
     
     while true; do

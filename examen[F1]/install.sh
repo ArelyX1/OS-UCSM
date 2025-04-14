@@ -21,7 +21,7 @@ NC='\033[0m'
 
 clear
 echo -e "${BLUE}=================================================================${NC}"
-echo -e "${GREEN}${BOLD}   INSTALACIÓN DEL MONITOR DE SEGURIDAD PARA UBUNTU 24.04   ${NC}"
+echo -e "${GREEN}${BOLD}   INSTALACIÓN DEL MONITOR - adyx1.installer (UBUNTU 24.04)   ${NC}"
 echo -e "${BLUE}=================================================================${NC}"
 echo ""
 

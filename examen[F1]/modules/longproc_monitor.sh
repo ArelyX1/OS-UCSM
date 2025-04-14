@@ -14,7 +14,6 @@
 # ============================================================
 
 monitor_long_processes() {
-    # Capturar Ctrl+C para volver al menú principal
     trap 'return 0' INT
     
     while true; do
