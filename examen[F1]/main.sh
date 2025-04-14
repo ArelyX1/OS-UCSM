@@ -3,7 +3,7 @@
 # ============================================================
 # MONITOR DE SEGURIDAD PARA UBUNTU 24.04
 # ============================================================
-# Descripción: Script principal que integra todos los módulos de monitoreo
+# Script principal que integra todos los módulos de monitoreo
 # de seguridad. Presenta un menú interactivo que permite al usuario
 # seleccionar diferentes opciones para analizar registros del sistema,
 # detectar conexiones remotas sospechosas y monitorear procesos.

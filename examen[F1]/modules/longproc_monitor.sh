@@ -3,7 +3,7 @@
 # ============================================================
 # MÓDULO DE MONITOREO DE PROCESOS DE LARGA DURACIÓN
 # ============================================================
-# Descripción: Este módulo identifica y analiza procesos que han
+# Este módulo identifica y analiza procesos que han
 # estado ejecutándose durante períodos prolongados, lo cual puede
 # indicar persistencia de malware o actividad maliciosa continua
 # en el sistema.

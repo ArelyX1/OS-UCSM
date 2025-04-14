@@ -3,7 +3,7 @@
 # ============================================================
 # MÓDULO DE MONITOREO EN TIEMPO REAL
 # ============================================================
-# Descripción: Este módulo proporciona una vista consolidada
+# Este módulo proporciona una vista consolidada
 # en tiempo real de todos los aspectos críticos del sistema,
 # actualizándose automáticamente cada 2 segundos. Muestra
 # conexiones SSH, scripts Python sospechosos, conexiones de red
