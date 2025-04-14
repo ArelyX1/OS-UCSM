@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Ejecutar el script Python en segundo plano
-# /usr/bin/python3.13 /home/arelyxl/Downloads/VsCode/Operating_system/Shell/Week_1/dinamic/hora.py &
-#sleep 0.3
+/usr/bin/python3.13 /home/arelyxl/Downloads/VsCode/Operating_system/Shell/Week_1/dinamic/hora.py &
+sleep 0.3
 
 
 PYTHON_PID=$(pgrep -n -f "/home/arelyxl/Downloads/VsCode/Operating_system/Shell/Week_1/dinamic/hora.py")
@@ -16,7 +16,7 @@ fi
 # PYTHON_PID=$(ps aux | grep "[h]ora.py" | awk '{print $2}')
 
 now=$(date +%s)
-target=$(date -d "6:14" +%s)
+target=$(date -d "9:55" +%s)
 
 if [ $now -ge $target ]; then
     target=$(date -d "tomorrow 09:30" +%s)
@@ -33,7 +33,6 @@ while true; do
     sleep 1
 done
 
-# Opción 1: Terminar por PID específico
 kill $PYTHON_PID
 
 echo -e "\nEs hora de matar a POU"
